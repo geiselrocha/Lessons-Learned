@@ -1,42 +1,42 @@
 body {
-        background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-        background-color: green;
-        color: white;
-        position: fixed;
-        top: 0;
-        width: 100%;
+#cabecalho {
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-#titulo{
-        text-align: center;
+#titulo {
+  text-align: center;
 }
-#minha_foto{
-        float: left;
-        margin-top: 100px;
-        size: 50px;
+#minha_foto {
+  float: left;
+  margin-top: 100px;
+  size: 50px;
 }
-#licoes_aprendidas{
-        display: block;
-        position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        color:black;
-        top: 360px;
+#licoes_aprendidas {
+  display: block;
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  color:black; 
+  top: 360px;
 }
-#licoes_a_aprender{
-        display: block;
-        position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        color: black;
-        top: 360px;
-        left: 180px;
+#licoes_a_aprender {
+  display: block;
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  top: 360px;
+  left: 180px;
 }
-#rodape{
-        display: flex;
-        position: absolute;
-        font-family: 'Courier New', Courier, monospace;
-        color: black;
-        bottom: -150px;
-        left: 20px;
-        font-size: 25px;
+#rodape {
+  display: flex;
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  bottom: -150px;
+  left: 20px;
+  font-size: 25px;
 }
