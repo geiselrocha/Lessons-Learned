@@ -1,4 +1,4 @@
-#body {
+body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
@@ -13,22 +13,30 @@
 }
 #minha_foto {
     float: left;
-    border-radius: 250%;
     margin-top: 100px;
-    size: 300px;
+    size: 50px;
 }
 #licoes_aprendidas {
     display: block;
     position: absolute;
     font-family: 'Courier New', Courier, monospace;
-    color:red;
+    color:black;
     top: 360px;
 }
 #licoes_a_aprender {
     display: block;
     position: absolute;
     font-family: 'Courier New', Courier, monospace;
-    color: red;
+    color: black;
     top: 360px;
     left: 180px;    
+}
+#rodape {
+    display: flex;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    bottom: -150px;
+    left: 20px;
+    font-size: 25px;
 }
