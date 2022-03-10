@@ -18,30 +18,32 @@ body {
 #licoes_aprendidas {
   display: block;
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   color:black; 
   top: 360px;
+  line-height:normal;
 }
 #licoes_a_aprender {
   display: block;
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   color: black;
   top: 360px;
   left: 180px;
+  line-height: normal;
 }
 #rodape {
   display: flex;
   position: absolute;
-  font-family: 'Courier New', Courier, monospace;
-  color: black;
+  font-family: Courier, monospace;
+  color: green;
   bottom: -150px;
   left: 20px;
   font-size: 8px;
 }
-section article {
+.lado-esquerdo {
   width: 45%;
-  height: 10vh;
+  height: 13vh;
   border: 1px solid black;
   position:absolute;
   top: 600px;
@@ -49,9 +51,9 @@ section article {
   padding: 10px;
   font-size: small;
 }
-section aside {
+.lado-direito {
   width: 45%;
-  height: 10vh;
+  height: 13vh;
   border: 1px solid black;  
   position:absolute;
   top: 600px;
@@ -63,8 +65,8 @@ section table {
   position: absolute;
   left: 0%;
   top: 45%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   background-color: rgb(253, 251, 251);
-  color: black;
+  color: green;
   width: 15%;
 }
